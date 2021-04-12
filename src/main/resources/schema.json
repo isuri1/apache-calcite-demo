@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "schemas": [
+    {
+      "name": "H2_1 ",
+      "type": "jdbc",
+      "jdbcDriver": "org.h2.Driver",
+      "jdbcUrl": "jdbc:h2:file:~/data/h2_1;MODE=MYSQL;DB_CLOSE_ON_EXIT=FALSE",
+      "jdbcUser": "sa",
+      "jdbcPassword": ""
+    },
+    {
+      "name": "H2_2",
+      "type": "jdbc",
+      "jdbcDriver": "org.h2.Driver",
+      "jdbcUrl": "jdbc:h2:file:~/data/h2_2;MODE=MYSQL;DB_CLOSE_ON_EXIT=FALSE",
+      "jdbcUser": "sa",
+      "jdbcPassword": ""
+    }
+  ]
+}
