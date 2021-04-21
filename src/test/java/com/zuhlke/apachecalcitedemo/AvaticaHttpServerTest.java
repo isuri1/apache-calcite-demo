@@ -3,9 +3,12 @@ package com.zuhlke.apachecalcitedemo;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class AvaticaHttpServerTest {
+public class AvaticaHttpServerTest {
 
     private AvaticaHttpServer avaticaHttpServer = new AvaticaHttpServer();
+
+    AvaticaHttpServerTest() {
+    }
 
     @BeforeEach
     void setUp() {
