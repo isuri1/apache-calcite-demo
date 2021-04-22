@@ -20,6 +20,7 @@ public class DataSourceConfig {
         config.setIdleTimeout(30000);
         config.setMaxLifetime(2000000);
         config.setConnectionTimeout(3000);
+        config.setPoolName("Hikari-IMS");
         ds = new HikariDataSource(config);
     }
 
