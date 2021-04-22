@@ -1,4 +1,4 @@
-package com.zuhlke.apachecalcitedemo;
+package com.zuhlke.apachecalcitedemo.src.main.java;
 
 import org.apache.calcite.avatica.jdbc.JdbcMeta;
 import org.apache.calcite.avatica.remote.Driver;
@@ -14,7 +14,7 @@ import java.util.Properties;
 public class AvaticaHttpServer {
 
     @PostConstruct
-    protected static void createServer() throws SQLException {
+    public static void createServer() throws SQLException {
 
         Properties properties = new Properties();
         properties.put("user", "sa");

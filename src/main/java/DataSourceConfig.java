@@ -1,4 +1,4 @@
-package com.zuhlke.apachecalcitedemo;
+package com.zuhlke.apachecalcitedemo.src.main.java;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;

@@ -1,5 +1,6 @@
-package com.zuhlke.apachecalcitedemo;
+package com.zuhlke.apachecalcitedemo.src.main.java;
 
+import com.zuhlke.apachecalcitedemo.src.main.java.DataSourceConfig;
 import org.apache.calcite.avatica.jdbc.JdbcMeta;
 
 import java.lang.reflect.Field;
