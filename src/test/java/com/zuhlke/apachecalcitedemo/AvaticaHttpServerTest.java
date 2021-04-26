@@ -1,6 +1,6 @@
 package com.zuhlke.apachecalcitedemo;
 
-import com.zuhlke.apachecalcitedemo.src.main.java.AvaticaHttpServer;
+import com.zuhlke.apachecalcitedemo.config.AvaticaHttpServer;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
