@@ -71,7 +71,7 @@ public class CustomJdbcMeta extends JdbcMeta {
         return connection;
     }
 
-    private Connection getSharedConnection() {
+    private Connection getSharedConnection(){
         Field fieldConnectionCache;
         try {
 
